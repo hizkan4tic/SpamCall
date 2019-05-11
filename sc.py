@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# Coded by HIZKANATIC
+# Coded by HIZK4NATIC
 """
 
 try:
@@ -18,9 +18,9 @@ w=('\033[1;37m')
 print("""%s
 			SPAM CALL V.01%s
  ,_     _‚
- |\\\___//|	%sAuthor: HIZKANATIC%s
+ |\\\___//|	%sAuthor: HIZKAN4TIC%s
  |=6   6=|	%sContact: https://instagram.com/hizqilhkm%s
- \=._Y_.=/	%sGithub: https://github.com/hizkanatic%s
+ \=._Y_.=/	%sGithub: https://github.com/hizk4natic%s
   )  `  (    ,	%sTEAM : BLACKHELL TEAM%s
  /       \  ((
  |       |   ))
