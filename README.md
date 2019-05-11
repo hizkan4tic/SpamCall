@@ -9,7 +9,7 @@ $ pip install requests
 
 $ pkg install git
 
-$ git clone https://github.com/hizkanatic/SpamCall
+$ git clone https://github.com/hizkan4tic/SpamCall
 
 $ cd SpamCall
 
