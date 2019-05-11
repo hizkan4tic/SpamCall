@@ -21,7 +21,7 @@ print("""%s
  |\\\___//|	%sAuthor: HIZKANATIC%s
  |=6   6=|	%sContact: https://instagram.com/hizqilhkm%s
  \=._Y_.=/	%sGithub: https://github.com/hizkanatic%s
-  )  `  (    ,	%sTEAM   : BLACKHELL TEAM%s
+  )  `  (    ,	%sTEAM : BLACKHELL TEAM%s
  /       \  ((
  |       |   ))
 /| |   | |\_//	%sMASUKAN NOMOR DENGAN "62" (EX: 628XXXXXX)%s
